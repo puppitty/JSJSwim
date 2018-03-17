@@ -1,0 +1,53 @@
+@media screen and (max-width: 39.9375em) {
+  .no-js .top-bar {
+    display: none;
+  }
+}
+
+@media print,
+screen and (min-width: 40em) {
+  .no-js .title-bar {
+    display: none;
+    font-size: 10px;
+  }
+}
+
+[data-sticky] {
+  width: 100%;
+}
+
+.sticky-container {
+  z-index: 5;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: teal;
+  height: 30px;
+  padding-bottom: 10px;
+}
+
+a {
+  background-color: White;
+}
+
+h1 {
+  font-style: bold;
+}
+
+h5 {
+  text-align: center;
+}
+
+.thumbnail {
+  margin-bottom: 2px;
+}
+
+.top-bar {
+  background-color: white;
+}
+
