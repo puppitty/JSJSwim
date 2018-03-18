@@ -50,4 +50,26 @@ h5 {
 .top-bar {
   background-color: white;
 }
+/* css added for swim level page */
 
+/* top layer */
+.style-box {
+
+}
+
+.level-row {
+  border-bottom: 1px solid gray;
+  margin: 20px;
+}
+
+.imageBox {
+  margin: 10px;
+}
+
+/* footer css not working*/
+
+.footer-image {
+  background-image: url("../images/wave-banner-long.jpg");
+ height: 90px;
+  width: auto;
+}
