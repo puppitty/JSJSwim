@@ -58,8 +58,11 @@ h5 {
 }
 
 .level-row {
-  border-bottom: 1px solid gray;
-  margin: 20px;
+  /* border-bottom: 1px solid gray; */
+padding-top: 20px;
+padding-bottom: 20px;
+  /* this margin below was taken off because of how it affects the lines on the swim levels page JA and replaced with a padding */
+  /* margin: 20px; */
 }
 
 .imageBox {
@@ -72,4 +75,53 @@ h5 {
   background-image: url("../images/wave-banner-long.jpg");
  height: 90px;
   width: auto;
+}
+
+
+.logo {
+  width: 300px;
+}
+/* /the logo is larger than the search bar, trying a smaller logo */
+/* 
+
+
+.nav-bar-style {
+  background-color: rgba(172, 216, 226, .5);
+/* delete above */
+/* } */
+
+/* .main-nav { */
+  /* background-color: rgba(172, 216, 226, .5); */
+/* delete above */
+/* }  */
+
+.style-header {
+ color: rgb(223, 243, 243);
+ background-color: rgb(25, 118, 210);
+ padding: 20px;
+ margin-bottom: 20px;
+ margin: 15px;
+}
+
+
+#main-nav {
+  border-bottom: 1px solid gray;
+}
+
+.odd-level {
+  background-color: rgb(199, 220, 247);
+
+}
+
+
+.end-prompt {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.text-box-sizing {
+  padding: 20px;
+  
+  
 }
