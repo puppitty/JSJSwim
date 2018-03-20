@@ -7,6 +7,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>JSJ Swim School</title>
 
+  <style>
+    
+      #mapSection{
+          align-content: space-around;
+          height:75vh;
+          width:100vw;
+          /* padding: 5%; */
+          position:inherit;
+          
+      }
+  
+      a:link {
+       color:blue;
+      }
+      a:hover {
+          text-decoration:underline;
+      }
+
+  </style>
+
   <!-- Connections to Foundation CSS files and cusotm css file -->
   <link rel="stylesheet" href="./assets/css/foundation.css">
   <link rel="stylesheet" href="./assets/css/foundation.min.css">
@@ -76,8 +96,11 @@
     </nav>
   </div>
 
+  <div id="mapSection">
+
+  </div>
   <!-- Sliders that appear under the Navigation for Home Page -->
-  <div class="orbit clean-hero-slider" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <!-- <div class="orbit clean-hero-slider" role="region" aria-label="Favorite Space Pictures" data-orbit>
     <div class="orbit-wrapper">
       <div class="orbit-controls">
         <button class="orbit-previous">
@@ -128,10 +151,10 @@
       <button data-slide="3">
         <span class="show-for-sr">Button 3</span>
       </button>
-    </nav> -->
-  </div>
+    </nav> 
+  </div> -->
 
-  <div class="grid-container">
+  <!-- <div class="grid-container">
     <div class="grid-x grid-padding-x">
       <div class="large-12 cell">
         <h1>JSJ Swim School</h1>
@@ -224,10 +247,10 @@
 
     <div class="grid-x grid-padding-x">
       <div class="large-8 medium-8 cell">
-        <h5>Here&rsquo;s your basic grid:</h5>
+        <h5>Here&rsquo;s your basic grid:</h5> -->
         <!-- Grid Example -->
 
-        <div class="grid-x grid-padding-x">
+        <!-- <div class="grid-x grid-padding-x">
           <div class="large-12 cell">
             <div class="primary callout">
               <p>
@@ -264,9 +287,9 @@
               <p>Four cell</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <hr />
+        <!-- <hr />
 
         <h5>We bet you&rsquo;ll need a form somewhere:</h5>
         <form>
@@ -329,9 +352,9 @@
             </div>
           </div>
         </form>
-      </div>
+      </div> -->
 
-      <div class="large-4 medium-4 cell">
+  <!--    <div class="large-4 medium-4 cell">
         <h5>Try one of these buttons:</h5>
         <p>
           <a href="#" class="button">Simple Button</a>
@@ -351,7 +374,7 @@
       </div>
     </div>
   </div>
-  </div>
+  </div> -->
 
  <!-- upper footer for additional text or link elsewhere -->
  <!-- FIX THE MARGIN TO ZERO SO DARK BLUE IS IN LINE WITH THE REST -->
@@ -378,9 +401,18 @@
  
 
     <!-- scripts for JS -->
+
     <script src="./assets/js/vendor/jquery.js"></script>
     <script src="./assets/js/vendor/what-input.js"></script>
     <script src="./assets/js/vendor/foundation.js"></script>
     <script src="./assets/js/app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpZp25lr8vvjPkK0GrWL-P089Vqrjo3a0&callback=initMap"
+    async defer></script>
+    <script src="./assets/js/locationsJS.js"></script>
 </body>
 </html>
