@@ -15,7 +15,7 @@
 
 <body>
   <!-- top menu bar -->
-  <div class="grid-container nav-bar-style">
+  
     <nav data-sticky-container>
       <div data-sticky data-options="marginTop:0;">
 
@@ -26,6 +26,7 @@
         </div>
 
         <!-- Top bar Left (Company Logo) -->
+        <div class="grid-container nav-bar-style">
         <div class="top-bar" id="main-nav">
           <div class="top-bar-left">
             <img class="logo" src="./assets/images/Logo-noback.png" alt="JSJ Swim School">
@@ -83,22 +84,23 @@
         <div class="style-header text-center">
           <h1>Swim Levels</h1>
         </div>
-       <div class="text-box-sizing">
-         <h3 class="text-center">Swim Classes for Each Age and Ability Level</h3>
-        <p class="text-center">
-          
-          As your swimmer progresses, our lessons have a class that will continue to push the student. An equal emphasis is placed
-          on technique as well as endurance. One week prior to registration for the upcomming session your instructor will
-          give out a progress report recommended the next sessions placement. Below are an outline of the skills covered
-          for each level. For initial placement to classes please contact us for a 5 minute swim evalation.<br>
-        </p>
-      </div>
- 
+        <div class="text-box-sizing">
+          <h3 class="text-center">Swim Classes for Each Age and Ability Level</h3>
+          <p class="text-center">
+
+            As your swimmer progresses, our lessons have a class that will continue to push the student. An equal emphasis is placed
+            on technique as well as endurance. One week prior to registration for the upcomming session your instructor will
+            give out a progress report recommended the next sessions placement. Below are an outline of the skills covered
+            for each level. For initial placement to classes please contact us for a 5 minute swim evalation.
+            <br>
+          </p>
+        </div>
+
 
         <!-- top of the grid container to create margins from the size. ODD -->
         <div class="grid-container fluid">
           <!-- line one parent child -->
-            <!-- NOTE TO SELF: use a new p tag if you want more space, <br> if you want next line, no space -->
+          <!-- NOTE TO SELF: use a new p tag if you want more space, <br> if you want next line, no space -->
 
           <div class="odd-level">
             <div class="grid-x grid-margin-x grid-padding-x level-row">
@@ -109,11 +111,15 @@
               <div class="cell small-8 levelDescription" id="parent-child">
                 <h3 class="title">Parent with Child Classes</h3>
                 <h6 class="highlighted-info">
-                  <p></p><strong>Age range:</strong> 6mths-3years Years
+                  <p></p>
+                  <strong>Age range:</strong> 6mths-3years Years
+                  </p>
+                  <p>
+                    <strong>Ratio:</strong> 1:10 instructor to child
+                  </p>
+                  <p>
+                    <strong>Time frame:</strong> 30 minutes, 10 week session</h6>
                 </p>
-                  <p><strong>Ratio:</strong> 1:10 instructor to child
-                </p>
-                <p><strong>Time frame:</strong> 30 minutes, 10 week session</h6></p>
                 <p>The main goal of parent child classes is to teach water comfort and water safety. The parent will be in the
                   water with the child practicing skills through song and games. Goals include back floating, basic forward
                   movement, confidence in jumping then returning to the wall, and learning how to be safe by the pool.
@@ -305,35 +311,38 @@
             </div>
           </div>
 
- <!-- upper footer for additional text or link elsewhere -->
- <!-- FIX THE MARGIN TO ZERO SO DARK BLUE IS IN LINE WITH THE REST -->
- <div class="grid-container end-prompt">
-    <div class="grid-x grid-padding-x">
-      <div class="large-12 ">
-        <div class="style-header text-center">
-          <h3>Ready to register for class?</h3>
-          <p>Click here for registration.<br>Click here to contact us<br> possible pictures of Social media and other footer style content</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end upper footer -->
+          <!-- upper footer for additional text or link elsewhere -->
+          <!-- FIX THE MARGIN TO ZERO SO DARK BLUE IS IN LINE WITH THE REST -->
+          <div class="grid-container end-prompt">
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 ">
+                <div class="style-header text-center">
+                  <h3>Ready to register for class?</h3>
+                  <p>Click here for registration.
+                    <br>Click here to contact us
+                    <br> possible pictures of Social media and other footer style content</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end upper footer -->
 
 
-<!-- bottom footer with image -->
-    <footer>
-      <div class="fixed-bottom bg-info text-white text-center p-3 footer-image">
-        &copy; 2018 JSJ Enterprises
-      </div>
-    </footer>
- <!-- end bottom footer --> 
+          <!-- bottom footer with image -->
+          <footer>
+            <div class="fixed-bottom bg-info text-white text-center p-3 footer-image">
+              &copy; 2018 JSJ Enterprises
+            </div>
+          </footer>
+          <!-- end bottom footer -->
 
 
-    <!-- scripts for JS -->
-    <script src="./assets/js/vendor/jquery.js"></script>
-    <script src="./assets/js/vendor/what-input.js"></script>
-    <script src="./assets/js/vendor/foundation.js"></script>
-    <script src="./assets/js/app.js"></script>
+          <!-- scripts for JS -->
+          <script src="./assets/js/vendor/jquery.js"></script>
+          <script src="./assets/js/vendor/what-input.js"></script>
+          <script src="./assets/js/vendor/foundation.js"></script>
+          <script src="./assets/js/app.js"></script>
 
 </body>
+
 </html>
