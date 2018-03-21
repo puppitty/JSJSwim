@@ -25,11 +25,11 @@ screen and (min-width: 40em) {
   margin: 0 auto;
 }
 
-.footer {
+/* .footer {
   background-color: teal;
   height: 30px;
   padding-bottom: 10px;
-}
+} */
 
 a {
   background-color: White;
@@ -122,6 +122,20 @@ padding-bottom: 20px;
 
 .text-box-sizing {
   padding: 20px;
+}
+
+#mapSection{
+  align-content: space-around;
+  height:75vh;
+  width:100vw;
+  /* padding: 5%; */
+  position:inherit;
   
-  
+}
+
+a:link {
+color:blue;
+}
+a:hover {
+  text-decoration:underline;
 }
