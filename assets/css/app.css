@@ -131,3 +131,18 @@ h5 {
 .text-box-sizing {
   padding: 20px;
 }
+
+#mapSection{
+  align-content: space-around;
+  height:75vh;
+  width:100vw;
+  /* padding: 5%; */
+  position:inherit;
+}
+
+a:link {
+color:blue;
+}
+a:hover {
+  text-decoration:underline;
+}
