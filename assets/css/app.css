@@ -135,7 +135,7 @@ h5 {
 #mapSection{
   align-content: space-around;
   height:75vh;
-  width:100vw;
+  width:100%;
   /* padding: 5%; */
   position:inherit;
 }
@@ -145,4 +145,8 @@ color:blue;
 }
 a:hover {
   text-decoration:underline;
+}
+
+.contact {
+  padding-top: 20px;
 }
