@@ -23,7 +23,8 @@
       <!-- Mobile menu  -->
       <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
         <button class="menu-icon" type="button" data-toggle="main-nav"></button>
-        <div class="title-bar-title">JSJ Swim School</div>
+        <img class="logo" src="./assets/images/Logo-noback.png" width= 25% alt="JSJ Swim School">
+        <!-- <div class="title-bar-title">JSJ Swim School</div> -->
       </div>
 
       <!-- Top bar Left (Company Logo) -->
@@ -93,71 +94,17 @@
       </div>
       <div class="grid-container">
         <div class="contact">
-          <a href="#" class="button medium">Contact Us</a>
-          <a href="#" class="button medium ">Request Private Lessons</a>
+          <a href="#contact" class="button medium">Contact Us</a>
+          <a href="#private" class="button medium ">Request Private Lessons</a>
           <a href="#" class="button medium ">Sign-up for a Class</a>
         </div>
       </div>
-
-      <div class="row">
-        <div class="grid-container">
-          <h4>
-            <strong>Contact Us</strong>
-          </h4>
-          <form data-abide novalidate>
-            <div data-abide-error class="alert callout" style="display: none;">
-              <p>
-                <i class="fi-alert"></i> There are some errors in your form.</p>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <label>Parent / Guardian First Name</label>
-                <input type="text" placeholder="Parent's First Name" required aria-describedby="exampleHelpText" required pattern="text">
-                <span class="form-error">
-                  Yo, you had better fill this out, it's required.
-                </span>
-              </div>
-              <div class="large-4 medium-4 cell">
-                <label>Parent / Guardian Last Name</label>
-                <input type="text" placeholder="Parent's Last Name" />
-
-              </div>
-              <div class="large-4 medium-4 cell">
-                <div class="grid-x">
-                  <label>Parent / Guardian Email Address</label>
-                  <div class="input-group">
-                    <input type="email" placeholder="name@domain.com" aria-describedby="exampleHelpText" required pattern="email">
-                    <span class="form-error">
-                      Enter a valid email address.
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Subject</label>
-                <select>
-                  <option value="parent">Parent/Child</option>
-                  <option value="preschool">Pre-School</option>
-                  <option value="school">School Age</option>
-                  <option value="competitive">Competitive</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Your Message</label>
-                <textarea placeholder="Type your message here"></textarea>
-              </div>
-            </div>
-          </form>
-        </div>
+      <div id="contact">
         <div class="row">
           <div class="grid-container">
+
             <h4>
-              <strong>Request Private Lesssons</strong>
+              <strong>Contact Us</strong>
             </h4>
             <form data-abide novalidate>
               <div data-abide-error class="alert callout" style="display: none;">
@@ -166,6 +113,7 @@
               </div>
               <div class="grid-x grid-padding-x">
                 <div class="large-4 medium-4 cell">
+
                   <label>Parent / Guardian First Name</label>
                   <input type="text" placeholder="Parent's First Name" required aria-describedby="exampleHelpText" required pattern="text">
                   <span class="form-error">
@@ -190,54 +138,115 @@
                 </div>
               </div>
               <div class="grid-x grid-padding-x">
-                <div class="large-4 medium-4 cell">
-                  <label>Student's First Name</label>
-                  <input type="text" placeholder="Student's First Name" />
+                <div class="large-12 cell">
+                  <label>Subject</label>
+                  <select>
+                    <option value="parent">Parent/Child</option>
+                    <option value="preschool">Pre-School</option>
+                    <option value="school">School Age</option>
+                    <option value="competitive">Competitive</option>
+                    <option value="other">Other</option>
+                  </select>
                 </div>
-                <div class="large-4 medium-4 cell">
-                  <label>Student's Last Name</label>
-                  <input type="text" placeholder="Student's Last Name" />
+              </div>
+              <div class="grid-x grid-padding-x">
+                <div class="large-12 cell">
+                  <label>Your Message</label>
+                  <textarea placeholder="Type your message here"></textarea>
                 </div>
-                <div class="large-4 medium-4 cell">
-                  <label>Student's Age</label>
-                  <input type="text" placeholder="Student's Age" />
+              </div>
+              <a href="#" class="button">Submit</a>
+          </div>
+          </form>
+        </div>
+        <div id="private">
+          <div class="row">
+            <div class="grid-container">
+
+              <h4>
+                <strong>Request Private Lesssons</strong>
+              </h4>
+              <form data-abide novalidate>
+                <div data-abide-error class="alert callout" style="display: none;">
+                  <p>
+                    <i class="fi-alert"></i> There are some errors in your form.</p>
                 </div>
 
-              </div>
-              <div class="large-6 medium-6 cell">
-                <label>
-                  <h5>Swim lessons run between 4 - 8pm Monday - Friday and 9am to 12pm Saturday.
-                    <br> Select which days you are available to attend. Please check as many as apply.</h5>
-                </label>
-                <br>
-                <div class="text-center">
-                  <input id="checkbox1" type="checkbox">
-                  <label for="checkbox1">Monday</label>
-                  <input id="checkbox2" type="checkbox">
-                  <label for="checkbox2">Tuesday</label>
-                  <input id="checkbox3" type="checkbox">
-                  <label for="checkbox3">Wednesday</label>
-                  <input id="checkbox4" type="checkbox">
-                  <label for="checkbox4">Thursday</label>
-                  <input id="checkbox5" type="checkbox">
-                  <label for="checkbox5">Friday</label>
-                  <input id="checkbox6" type="checkbox">
-                  <label for="checkbox6">Saturday</label>
-                </div>
-                <br>
                 <div class="grid-x grid-padding-x">
-                  <div class="large-12 cell">
-                    <label>Please explain the student's current swimming ability including, do they put their face in the water?
-                      Can they swim laps? Please include any details you think may be important.</label>
-                    <textarea placeholder="Please tell us about the student's current swim capability."></textarea>
+                  <div class="large-4 medium-4 cell">
+                    <label>Parent / Guardian First Name</label>
+                    <input type="text" placeholder="Parent's First Name" required aria-describedby="exampleHelpText" required pattern="text">
+                    <span class="form-error">
+                      Yo, you had better fill this out, it's required.
+                    </span>
                   </div>
-                  <div class="large-12 cell">
-                    <label>Do you have any special requests? i.e. instructor preference, time preference, etc.</label>
-                    <textarea placeholder="Do you have any special requests?"></textarea>
+                  <div class="large-4 medium-4 cell">
+                    <label>Parent / Guardian Last Name</label>
+                    <input type="text" placeholder="Parent's Last Name" />
+
+                  </div>
+                  <div class="large-4 medium-4 cell">
+                    <div class="grid-x">
+                      <label>Parent / Guardian Email Address</label>
+                      <div class="input-group">
+                        <input type="email" placeholder="name@domain.com" aria-describedby="exampleHelpText" required pattern="email">
+                        <span class="form-error">
+                          Enter a valid email address.
+                        </span>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <a href="#" class="button">Submit</a>
-            </form>
+                <div class="grid-x grid-padding-x">
+                  <div class="large-4 medium-4 cell">
+                    <label>Student's First Name</label>
+                    <input type="text" placeholder="Student's First Name" />
+                  </div>
+                  <div class="large-4 medium-4 cell">
+                    <label>Student's Last Name</label>
+                    <input type="text" placeholder="Student's Last Name" />
+                  </div>
+                  <div class="large-4 medium-4 cell">
+                    <label>Student's Age</label>
+                    <input type="text" placeholder="Student's Age" />
+                  </div>
+
+                </div>
+                <div class="large-6 medium-6 cell">
+                  <label>
+                    <h5>Swim lessons run between 4 - 8pm Monday - Friday and 9am to 12pm Saturday.
+                      <br> Select which days you are available to attend. Please check as many as apply.</h5>
+                  </label>
+                  <br>
+                  <div class="text-center">
+                    <input id="checkbox1" type="checkbox">
+                    <label for="checkbox1">Monday</label>
+                    <input id="checkbox2" type="checkbox">
+                    <label for="checkbox2">Tuesday</label>
+                    <input id="checkbox3" type="checkbox">
+                    <label for="checkbox3">Wednesday</label>
+                    <input id="checkbox4" type="checkbox">
+                    <label for="checkbox4">Thursday</label>
+                    <input id="checkbox5" type="checkbox">
+                    <label for="checkbox5">Friday</label>
+                    <input id="checkbox6" type="checkbox">
+                    <label for="checkbox6">Saturday</label>
+                  </div>
+                  <br>
+                  <div class="grid-x grid-padding-x">
+                    <div class="large-12 cell">
+                      <label>Please explain the student's current swimming ability including, do they put their face in the water?
+                        Can they swim laps? Please include any details you think may be important.</label>
+                      <textarea placeholder="Please tell us about the student's current swim capability."></textarea>
+                    </div>
+                    <div class="large-12 cell">
+                      <label>Do you have any special requests? i.e. instructor preference, time preference, etc.</label>
+                      <textarea placeholder="Do you have any special requests?"></textarea>
+                    </div>
+                  </div>
+                  <a href="#" class="button">Submit</a>
+                </div>
+              </form>
             </div>
 
 
