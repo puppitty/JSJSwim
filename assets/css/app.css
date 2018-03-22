@@ -35,6 +35,9 @@ screen and (min-width: 40em) {
   padding-bottom: 10px;
 } */
 
+
+
+/* this 'a' tag needs to be added into a class for the white space behind the a tags in the footer to go away. */
 a {
   background-color: White;
 }
@@ -149,4 +152,22 @@ a:hover {
 
 .contact {
   padding-top: 20px;
+}
+
+/* footer with info edits */
+.link-pic {
+  display: inline;
+  text-decoration: none;
+  margin: 10px;
+  
+
+}
+
+.register-link {
+  background-color: rgb(25, 118, 210);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  
+
 }
