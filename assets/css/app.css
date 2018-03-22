@@ -1,11 +1,11 @@
-@media screen and (max-width: 39.9375em) {
+@media screen and (max-width: 1000px) {
   .no-js .top-bar {
     display: none;
   }
 }
 
 @media print,
-screen and (min-width: 40em) {
+screen and (min-width: 1000.1px) {
   .no-js .title-bar {
     display: none;
     font-size: 10px;
