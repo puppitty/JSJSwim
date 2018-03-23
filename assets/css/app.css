@@ -19,7 +19,10 @@ screen and (min-width: 40em) {
 .sticky-container {
   z-index: 5;
 }
-
+.txtLeft {
+  text-align: left;
+  color: blue;
+}
 #main-nav {
   font-size: 14px;
 }

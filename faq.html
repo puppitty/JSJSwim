@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./assets/css/foundation.css">
   <link rel="stylesheet" href="./assets/css/foundation.min.css">
   <link rel="stylesheet" href="./assets/css/app.css">
-
+  
 </head>
 
 <body>
@@ -48,16 +48,16 @@
                 <a href="./swimlevels.html">Swim Levels</a>
                 <ul class="menu vertical nested">
                   <li>
-                    <a href="#">Parent/Child</a>
+                    <a href="./swimlevels.html#parentChild">Parent/Child</a>
                   </li>
                   <li>
-                    <a href="#">Pre-School</a>
+                    <a href="./swimlevels.html#preSchool">Pre-School</a>
                   </li>
                   <li>
-                    <a href="#">School Age</a>
+                    <a href="./swimlevels.html#schoolAge">School Age</a>
                   </li>
                   <li>
-                    <a href="#">Competitive</a>
+                    <a href="./swimlevels.html#competitiveSwim">Competitive</a>
                   </li>
                 </ul>
               </li>
@@ -92,6 +92,23 @@
             </ul>
           </div>
         </div>
+        <div>
+          <form action="https://formspree.io/jsjswim@gmail.com"
+                  method="POST">
+            <h5 class="txtLeft">Submit Your Question</h5>
+            <h6 class="txtLeft">
+            Your Name:  
+            <input type="text" name="name" style="width:40vw">
+            Your email address:
+            <input type="email" name="replyto" style="width:40vw">
+            Enter Your Question: <br>
+            <textarea name="message" rows="3" cols="12" placeholder:"write your question here!" ></textarea></h6>
+            <input class="txtLeft" type="submit" value="Send">
+            <input type="hidden" name="_next" value="https://ghsb17.github.io/jsjswim/thanks.html" />
+            <input type="hidden" name="_subject" value="New FAQ Submission" />
+          </form>
+        </div>
+
       </div>
     </div>
   </div>
