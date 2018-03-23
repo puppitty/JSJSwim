@@ -7,26 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>JSJ Swim School</title>
 
-  <!-- <style>
-    
-      #mapSection{
-          align-content: space-around;
-          height:75vh;
-          width:100vw;
-          /* padding: 5%; */
-          position:inherit;
-          
-      }
-  
-      a:link {
-       color:blue;
-      }
-      a:hover {
-          text-decoration:underline;
-      }
-
-  </style> -->
-
   <!-- Connections to Foundation CSS files and cusotm css file -->
   <link rel="stylesheet" href="./assets/css/foundation.css">
   <link rel="stylesheet" href="./assets/css/foundation.min.css">
@@ -95,62 +75,65 @@
           </ul>
         </div>
       </div>
+    </div>
   </nav>
-  </div>
+
+  <!-- Display section for Map -->
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
-      <div class="large-12">
+      <div class="large-12 cell">
         <div class="style-header text-center">
           <h1>Locations</h1>
-        </div> 
-      <!-- </div>  -->
-    <!-- </div> -->
-  <!-- </div> -->
+        </div>
+        <div class="row">
+          <div class="grid-container">
+            <div id="mapSection">
+            </div>
+          </div>
+        </div>
 
-  <div id="mapSection">
+        <!-- upper footer for additional text or link elsewhere -->
+        <!-- FIX THE MARGIN TO ZERO SO DARK BLUE IS IN LINE WITH THE REST -->
+        <div class="grid-container end-prompt">
+          <div class="grid-x grid-padding-x">
+            <div class="large-12 ">
+              <div class="style-header text-center">
+                <h3>Ready to register for class?</h3>
 
-  </div>
-  
-   <!-- upper footer for additional text or link elsewhere -->
-          <!-- FIX THE MARGIN TO ZERO SO DARK BLUE IS IN LINE WITH THE REST -->
-          <div class="grid-container end-prompt">
-              <div class="grid-x grid-padding-x">
-                <div class="large-12 ">
-                  <div class="style-header text-center">
-                    <h3>Ready to register for class?</h3>
-  
-                    <!-- links for social media -->
-                    <a class="register-link" href="contact.html">Click here for more information and registration!</a>
-                    <div class="link-pic">
-                      <a href="https://www.facebook.com/USAswimming/">
-                        <img border="0" alt="facebook" src="assets/images/facebook-logo.png" width="50px">
-                      </a>
-                    </div>
-                    <div class="link-pic">
-                      <a href="https://www.instagram.com/explore/locations/141750626068/usa-swimming/">
-                        <img border="0" alt="instagram" src="assets/images/instagram.png" width="50px">
-                      </a>
-                    </div>
-                    <div class="link-pic">
-                      <a href="https://www.usaswimming.org/">
-                        <img border="0" alt="USA Swimming" src="assets/images/USA-swimming.png" width="50px">
-                      </a>
-                    </div>
-                    </a>
-                  </div>
+                <!-- links for social media -->
+                <a class="register-link" href="contact.html">Click here for more information and registration!</a>
+                <div class="link-pic">
+                  <a href="https://www.facebook.com/USAswimming/">
+                    <img border="0" alt="facebook" src="assets/images/facebook-logo.png" width="50px">
+                  </a>
+                </div>
+                <div class="link-pic">
+                  <a href="https://www.instagram.com/explore/locations/141750626068/usa-swimming/">
+                    <img border="0" alt="instagram" src="assets/images/instagram.png" width="50px">
+                  </a>
+                </div>
+                <div class="link-pic">
+                  <a href="https://www.usaswimming.org/">
+                    <img border="0" alt="USA Swimming" src="assets/images/USA-swimming.png" width="50px">
+                  </a>
                 </div>
               </div>
             </div>
-            <!-- end upper footer -->
-  
-  
-            <!-- bottom footer with image -->
-            <footer>
-              <div class="fixed-bottom bg-info text-white text-center p-3 footer-image">
-                &copy; 2018 JSJ Enterprises
-              </div>
-            </footer>
-            <!-- end bottom footer -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end upper footer -->
+
+
+  <!-- bottom footer with image -->
+  <footer>
+    <div class="fixed-bottom bg-info text-white text-center p-3 footer-image">
+      &copy; 2018 JSJ Enterprises
+    </div>
+  </footer>
+  <!-- end bottom footer -->
 
   <!-- scripts for JS -->
 
