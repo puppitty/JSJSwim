@@ -1,15 +1,15 @@
 
-        const apiKEY='AIzaSyCpZp25lr8vvjPkK0GrWL-P089Vqrjo3a0'
+        const apiKEY='AIzaSyCb-eP827aTiqC20v7pR6tNsR7_u4VQ2GQ'
         
         var config = {
-            apiKey: "AIzaSyAlPS6nvEv-UuySOgKlvDE57z8hPHZzRr8",
-            authDomain: "project1-a798f.firebaseapp.com",
-            databaseURL: "https://project1-a798f.firebaseio.com",
-            projectId: "project1-a798f",
-            storageBucket: "project1-a798f.appspot.com",
-            messagingSenderId: "794741173278"
-        };
-        firebase.initializeApp(config);
+            apiKey: "AIzaSyAjA71CfHUU-mTezrsCpbdReUQnaxra6Dg",
+            authDomain: "jsjswim-198914.firebaseapp.com",
+            databaseURL: "https://jsjswim-198914.firebaseio.com",
+            projectId: "jsjswim-198914",
+            storageBucket: "jsjswim-198914.appspot.com",
+            messagingSenderId: "626450746575"
+          };
+          firebase.initializeApp(config);
 
         var databaseFAQ=firebase.database();
         var queryURL='';
@@ -30,7 +30,7 @@
                     icon:"./assets/images/swimming.png",
                     
                 });
-                //console.log(objProperties.content);
+                console.log(objProperties.content);
                
                 var myInfo=new google.maps.InfoWindow({
                     content:objProperties.content,
@@ -46,7 +46,7 @@
         
       
         databaseFAQ.ref("/Locations").on("child_added", function(childSnapshot) { 
-                
+          
           queryURL='https://maps.googleapis.com/maps/api/geocode/json?address='+
                         childSnapshot.val().buildingNumber+"+"+childSnapshot.val().streetName.replace(/ /g,'+')+
                         "+"+childSnapshot.val().cityName.replace(/ /g,'+')+
@@ -56,7 +56,7 @@
             '<p>'+childSnapshot.val().buildingNumber+", "+
             childSnapshot.val().streetName+'</p><p>'+
             childSnapshot.val().cityName+childSnapshot.val().stateName+'</p><br>'+childSnapshot.val().phoneNumber;
-          
+          console.log(queryURL);
           $.ajax({
                 url: queryURL,
                 method:"GET"
@@ -75,7 +75,7 @@
                                dataResponse.results[0].address_components[1].short_name+'</span><br>'+
                                '<span>'+dataResponse.results[0].address_components[2].short_name+
                                ', '+dataResponse.results[0].address_components[4].short_name+
-                               '</span><br><a class="button">Contact Us for More Info</a>'+
+                               '</span><br><a href="./contact.html" class="button">Contact Us for More Info</a>'+
                                '<br>'+'<a class="lead" target="_blank" href="'+
                                locationLink+'" >Directions</a></h6></div>';
                 //console.log(id);

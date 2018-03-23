@@ -34,7 +34,7 @@
 
           <!-- Navigation Menu -->
           <div class="grid-container">
-            <ul class="vertical medium-horizontal dropdown menu" data-responsive-menu="accordion medium-dropdown">
+            <ul class="vertical large-horizontal dropdown menu" data-responsive-menu="accordion large-dropdown">
               <li>
                 <a href="./index.html">Home</a>
               </li>
@@ -49,16 +49,16 @@
                   <a href="./swimlevels.html">Swim Levels</a>
                   <ul class="menu vertical nested">
                     <li>
-                      <a href="#">Parent/Child</a>
+                      <a href="./swimlevels.html#parentChild">Parent/Child</a>
                     </li>
                     <li>
-                      <a href="#">Pre-School</a>
+                      <a href="./swimlevels.html#preSchool">Pre-School</a>
                     </li>
                     <li>
-                      <a href="#">School Age</a>
+                      <a href="./swimlevels.html#schoolAge">School Age</a>
                     </li>
                     <li>
-                      <a href="#">Competitive</a>
+                      <a href="./swimlevels.html#competitiveSwim">Competitive</a>
                     </li>
                   </ul>
                 </li>
@@ -140,7 +140,21 @@
           <h1>Extended Learning</h1>
         </div>
 
-        <h3>Who are we?</h3>
+        <!---This is begining of Youtube API display Section-->
+        <div style="margin-left:5%;" >
+            Choose a topic of your interest:<br>
+            <select style="width:25vw" id="idS">
+                <option value="freestyle">Freestyle</option>
+                <option value="breaststroke">Breaststroke</option>
+                <option value="butterfly">Butterfly</option>
+                <option value="flipturn">Flip Turn</option>
+            </select>
+            <button class="button" id="btnSubmit" style="padding:1%; margin-top:1%" href="#">Submit</button>
+        </div>
+        <div id="results" style="margin:1%"></div>
+        <!-- This is the end of Youtube API display Section-->
+        
+        <!-- <h3>Who are we?</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
@@ -228,8 +242,8 @@
 
     <div class="grid-x grid-padding-x">
       <div class="large-8 medium-8 cell">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+        <h5>Here&rsquo;s your basic grid:</h5> 
+         Grid Example
 
         <div class="grid-x grid-padding-x">
           <div class="large-12 cell">
@@ -352,8 +366,8 @@
             making them your own.</p>
           <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
         </div>
-      </div>
-    </div>
+      </div> 
+    </div> -->
   </div>
   </div>
 
@@ -406,7 +420,11 @@
   <script src="./assets/js/vendor/what-input.js"></script>
   <script src="./assets/js/vendor/foundation.js"></script>
   <script src="./assets/js/app.js"></script>
-
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+  <script src="./assets/js/yapiMO.js"></script>
 
 
 
