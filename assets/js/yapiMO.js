@@ -1,18 +1,8 @@
 $(document).ready(function(){
 
-    // $.get('https://www.googleapis.com/youtube/v3/channels', {
-    //     part:'contentDetails',
-    //     forUserName:'goswim098',
-    //     key:'AIzaSyCpZp25lr8vvjPkK0GrWL-P089Vqrjo3a0'
-    //     }, function(data) {
-    //         $.each(data.items, function(i, item){
-    //             console.log(item);
-    //         });
-
-    //     }
-    // )
+   
     var plistID="";
-    var apiKey='AIzaSyCpZp25lr8vvjPkK0GrWL-P089Vqrjo3a0';
+    var apiKey='AIzaSyCb-eP827aTiqC20v7pR6tNsR7_u4VQ2GQ';
 
     function display( vID, vDescription ){
         

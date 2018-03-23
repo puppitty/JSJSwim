@@ -2,14 +2,14 @@
 $(document).ready(function(){
 
     var config = {
-        apiKey: "AIzaSyAlPS6nvEv-UuySOgKlvDE57z8hPHZzRr8",
-        authDomain: "project1-a798f.firebaseapp.com",
-        databaseURL: "https://project1-a798f.firebaseio.com",
-        projectId: "project1-a798f",
-        storageBucket: "project1-a798f.appspot.com",
-        messagingSenderId: "794741173278"
-    };
-    firebase.initializeApp(config);
+        apiKey: "AIzaSyAjA71CfHUU-mTezrsCpbdReUQnaxra6Dg",
+        authDomain: "jsjswim-198914.firebaseapp.com",
+        databaseURL: "https://jsjswim-198914.firebaseio.com",
+        projectId: "jsjswim-198914",
+        storageBucket: "",
+        messagingSenderId: "626450746575"
+      };
+      firebase.initializeApp(config);
 
     var databaseFAQ=firebase.database();
 
