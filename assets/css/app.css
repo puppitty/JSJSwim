@@ -21,7 +21,7 @@ screen and (min-width: 40em) {
 }
 .txtLeft {
   text-align: left;
-  color: rgb(25, 118, 210);
+  /* color: rgb(25, 118, 210); */
 }
 #main-nav {
   font-size: 14px;
