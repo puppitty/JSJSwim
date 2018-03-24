@@ -21,7 +21,7 @@ screen and (min-width: 40em) {
 }
 .txtLeft {
   text-align: left;
-  color: blue;
+  color: rgb(25, 118, 210);
 }
 #main-nav {
   font-size: 14px;
@@ -81,16 +81,14 @@ h5 {
   width: 200px;
 }
 
-/* .nav-bar-style {
-  background-color: rgba(172, 216, 226, .5)
-} */
 
 .style-header {
   color: rgb(223, 243, 243);
   background-color: rgb(25, 118, 210);
   padding: 20px;
-  margin-bottom: 20px;
-  margin: 15px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  
 }
 
 .intro-text {
@@ -146,9 +144,27 @@ a:hover {
 }
 
 .register-link {
-  background-color: rgb(25, 118, 210);
+  /* background-color: rgb(25, 118, 210); */
   color: white;
   text-decoration: none;
   font-size: 20px;
 
 }
+
+.topFooter {
+  margin-top:70px;
+}
+/* below gets rid of the white link in footer */
+.topFooter a {
+  background-color:  rgb(25, 118, 210);
+
+}
+
+.button.primary {
+  background-color: rgb(25, 118, 210);
+  color: #fefefe; }
+
+  .button-styling {
+    background-color: rgb(25, 118, 210);
+    color: #fefefe;
+  }

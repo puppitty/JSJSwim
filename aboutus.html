@@ -15,7 +15,6 @@
 
 <body>
   <!-- top menu bar -->
-
   <nav data-sticky-container>
     <div data-sticky data-options="marginTop:0;">
 
@@ -31,9 +30,8 @@
           <div class="top-bar-left">
             <img class="logo" src="./assets/images/Logo-noback.png" alt="JSJ Swim School">
           </div>
-
           <!-- Navigation Menu -->
-          <ul class="vertical large-horizontal dropdown menu" id="main-menu" data-responsive-menu="accordion large-dropdown">
+          <ul class="vertical large-horizontal dropdown menu" data-responsive-menu="accordion large-dropdown">
             <li>
               <a href="./index.html">Home</a>
             </li>
@@ -44,20 +42,21 @@
               <li>
                 <a href="./locations.html">Locations</a>
               </li>
+
               <li>
                 <a href="./swimlevels.html">Swim Levels</a>
                 <ul class="menu vertical nested">
                   <li>
-                    <a href="#">Parent/Child</a>
+                    <a href="#parentChild">Parent/Child</a>
                   </li>
                   <li>
-                    <a href="#">Pre-School</a>
+                    <a href="#preSchool">Pre-School</a>
                   </li>
                   <li>
-                    <a href="#">School Age</a>
+                    <a href="#schoolAge">School Age</a>
                   </li>
                   <li>
-                    <a href="#">Competitive</a>
+                    <a href="#competitiveSwim">Competitive</a>
                   </li>
                 </ul>
               </li>
@@ -77,6 +76,7 @@
     </div>
   </nav>
 
+
   <!-- Sliders that appear under the Navigation for Home Page -->
   <div class="orbit clean-hero-slider" role="region" aria-label="Favorite Space Pictures" data-orbit>
     <div class="orbit-wrapper">
@@ -90,56 +90,23 @@
         <li class="orbit-slide">
           <figure class="orbit-figure">
             <img class="orbit-image" src="./assets/images/swimmer-banner-boy-cut.jpg" alt="image alt text">
-            <!-- <figcaption class="orbit-caption">
-              <h4>Schedule your class</h4>
-              <p>Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>
-              <a href="#" class="button yellow">Click here</a>
-            </figcaption> -->
           </figure>
         </li>
         <li class="orbit-slide">
           <figure class="orbit-figure">
             <img class="orbit-image" src="./assets/images/instructor-banner.jpg" alt="image alt text">
-            <!-- <figcaption class="orbit-caption">
-              <h4>Learn More</h4>
-              <a href="#" class="button yellow">Submit</a>
-            </figcaption> -->
           </figure>
         </li>
         <li class="orbit-slide">
           <figure class="orbit-figure">
             <img class="orbit-image" src="./assets/images/facility-banner.jpg" alt="image alt text">
-            <!-- <figcaption class="orbit-caption">
-              <h4>Malesuada Parturient</h4>
-              <p>Fusce dapibus, tellus ac cursus commodo, sit amet risus. Cras mattis consectetur purus sit amet fermentum.
-                Maecenas sed diam sit amet non magna.</p>
-              <a href="#" class="button yellow">Sollicitudin</a>
-            </figcaption> -->
-          </figure>
-        </li>
-      </ul>
     </div>
-    <!-- <nav class="orbit-bullets">
-      <button class="is-active" data-slide="1">
-        <span class="show-for-sr">Button 1</span>
-      </button>
-      <button data-slide="2">
-        <span class="show-for-sr">Button 2</span>
-      </button>
-      <button data-slide="3">
-        <span class="show-for-sr">Button 3</span>
-      </button>
-    </nav> -->
   </div>
-
-
-
-  <!-- cut and paste from swim levels page -->
 
   <!-- top full length tox box for swim levels -->
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
-      <div class="large-12">
+      <div class="large-12 cell">
         <div class="style-header text-center">
           <h1>About JSJ Swim School</h1>
         </div>
@@ -152,17 +119,15 @@
           </p>
         </div>
 
-
         <!-- top of the grid container to create margins from the size. ODD -->
         <div class="grid-container fluid">
           <!-- line one parent child -->
           <div class="odd-level">
             <div class="grid-x grid-margin-x grid-padding-x level-row">
-              <div class="cell small-4 imageBox">
-                <img src="./assets/images/selfportArt.jpg" alt="pre-school swim image">
+              <div class="cell small-12 medium-4 large-4 imageBox">
+                <img src="./assets/images/selfportArt.jpg" alt="instructor photo">
               </div>
-
-              <div class="cell small-8 levelDescription" id="parent-child">
+              <div class="cell small-12 medium-8 large-8 levelDescription" id="jennifer-artschwager">
                 <h3 class="title">Jennifer Artschwager</h3>
                 <h6 class="highlighted-info">
                   <strong>Years Experience:</strong> 10 + years coaching
@@ -172,7 +137,6 @@
                   <strong>Certifications:</strong>WSI, LGI, ASCA lv1
                   <br>
                 </h6>
-
                 <strong>Favorite stroke:</strong>The butterfly
 
                 <p>Jennifer has been instructing for over 10 years. Her experience includes being a director of a learn to swim
@@ -182,143 +146,150 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <div class="even-level">
-            <div class="grid-x grid-margin-x grid-padding-x level-row">
-              <div class="cell small-4 imageBox">
-                <img src="assets/images/Joyce-dog.jpg" alt="pre-school swim image">
-              </div>
 
-              <div class="cell small-8 levelDescription" id="parent-child">
-                <h3 class="title">Joyce Santos</h3>
-                <h6 class="highlighted-info">
-                  <strong>Years Experience:</strong> 15 years coaching
-                  <br>
-                  <strong>Expertise:</strong> Mommy and Me classes
-                  <br>
-                  <strong>Certifications:</strong>CPR/AED
-                  <br>
-                </h6>
-
-                <strong>Favorite stroke:</strong>The doggy paddle
-
-                <p>
-                  Joyce is an instructor who has not only taught children and adults of all ages, but has also taught puppy paddle classes.
-                  Puppy paddle is a service for dog breeders and shelter litters guardians to have an experienced, DOG CPR
-                  trained instructor present while the litter tries their first steps in the pool. It is recommended for
-                  dogs who are a weaker swimming breed or who are a mix between a water and dry land dog breed. For canine
-                  lessons, please specify your child is four legged in our registration form.
-                  <p>
-              </div>
-            </div>
+    <div class="grid-container">
+      <div class="even-level">
+        <div class="grid-x grid-margin-x grid-padding-x level-row">
+          <div class="cell small-12 medium-4 large-4 imageBox">
+            <img src="assets/images/Joyce-dog.jpg" alt="instructor photo">
           </div>
 
-          <div class="odd-level">
-            <div class="grid-x grid-margin-x grid-padding-x level-row">
-              <div class="cell small-4 imageBox">
-                <img src="./assets/images/doug-lennox.jpg" alt="pre-school swim image">
-              </div>
+          <div class="cell small-12 medium-8 large-8 levelDescription" id="joyce-santos">
+            <h3 class="title">Joyce Santos</h3>
+            <h6 class="highlighted-info">
+              <strong>Years Experience:</strong> 15 years coaching
+              <br>
+              <strong>Expertise:</strong> Mommy and Me classes
+              <br>
+              <strong>Certifications:</strong>CPR/AED
+              <br>
+            </h6>
 
-              <div class="cell small-8 levelDescription" id="parent-child">
-                <h3 class="title">Doug Lennox</h3>
-                <h6 class="highlighted-info">
-                  <strong>Years Experience:</strong> 18 + years coaching
-                  <br>
-                  <strong>Expertise:</strong> Competitive level stroke development
-                  <br>
-                  <strong>Certifications:</strong>ASCA coach
-                  <br>
-                </h6>
+            <strong>Favorite stroke:</strong>The doggy paddle
 
-                <strong>Favorite stroke:</strong>Backstroke
-
-                <p>Doug Lennox '09, Beijing Olympian and one of the most decorated swimmers to represent the University, is
-                  returning to Princeton to serve as assistant coach for the upcoming season. He replaces Michael Joyce,
-                  who joined the Arizona State coaching staff to work under Bob Bowman – Michael Phelps' longtime coach.
-                  <br> Lennox, who currently owns four program records from his historic 2009 season, comes to Princeton after
-                  assistant coaching positions at both Kenyon College (2014-17) and New York University (2013-14).
-                  <br> Lennox, who placed in the Top 40 in seven events during both the 2008 Beijing Olympics and the 2009 Rome
-                  World Championships, is coming off a memorable 2017 season at Kenyon College, where he helped the men's
-                  team place second at NCAAs, while the women's team placed third.
-                  <p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="even-level">
-            <div class="grid-x grid-margin-x grid-padding-x level-row">
-              <div class="cell small-4 imageBox">
-                <img src="./assets/images/lia-neal.jpg" alt="pre-school swim image">
-              </div>
-
-              <div class="cell small-8 levelDescription" id="parent-child">
-                <h3 class="title">Lia Neal</h3>
-                <h6 class="highlighted-info">
-                  <strong>Years Experience:</strong> 2 years coaching
-                  <br>
-                  <strong>Expertise:</strong> learn-to-swim to pre-competitive
-                  <br>
-                  <strong>Certifications:</strong>WSI
-                  <br>
-                </h6>
-
-                <strong>Favorite stroke:</strong>Freestyle
-
-                <p>Lia Neal (born February 13, 1995) is an American competitive swimmer who specializes in freestyle events.
-                  In her Olympic debut at the 2012 Summer Olympics in London, she won a bronze medal in the 4×100-meter freestyle
-                  relay. In 2016, she won a silver medal in the same event at Rio de Janeiro.
-                  <p>
-              </div>
-            </div>
-          </div>
-          <div class="odd-level">
-            <div class="grid-x grid-margin-x grid-padding-x level-row">
-              <div class="cell small-4 imageBox">
-                <img src="./assets/images/Abbey-Berloco.jpg" alt="pre-school swim image">
-              </div>
-
-              <div class="cell small-8 levelDescription" id="parent-child">
-                <h3 class="title">Abbey Berloco</h3>
-                <h6 class="highlighted-info">
-                  <strong>Years Experience:</strong> 3 years coaching
-                  <br>
-                  <strong>Expertise:</strong> pre-school to adult
-                  <br>
-                  <strong>Certifications:</strong>WSI
-                  <br>
-                </h6>
-
-                <strong>Favorite stroke:</strong>Backstroke
-
-                <p>
-                  For the last three seasons in a row Berloco has received The Times of Trenton Area Girls Swimmer of the Year Award. As a
-                  freshman at Princeton High School, she placed fifth in the 50 free (23.97) and anchored the state-champion
-                  400 free relay at the 2015 NJSIAA Meet of Champions. The following year she won the 50 free (23.20) and
-                  the 100 free (50.30) and anchored Princeton’s 400 free relay to another state title. Berloco transferred
-                  to Notre Dame High School in Lawrenceville, and while she successfully defended her MOC title in the 100
-                  free (50.61), she was third in the 50 (23.63) and not as quick as she’d been as a sophomore.
-                  <p>
-              </div>
-            </div>
+            <p>
+              Joyce is an instructor who has not only taught children and adults of all ages, but has also taught puppy paddle classes.
+              Puppy paddle is a service for dog breeders and shelter litters guardians to have an experienced, DOG CPR trained
+              instructor present while the litter tries their first steps in the pool. It is recommended for dogs who are
+              a weaker swimming breed or who are a mix between a water and dry land dog breed. For canine lessons, please
+              specify your child is four legged in our registration form.
+              <p>
           </div>
         </div>
+      </div>
 
-        <!-- starting the second header for this page -->
-        <div class="style-header text-center">
-          <h1>Know our Philosphy</h1>
-        </div>
-        <div class="text-box-sizing">
-          <h3 class="text-center">Why our methods are effective</h3>
-          <p class="text-center">
+      <div class="odd-level">
+        <div class="grid-x grid-margin-x grid-padding-x level-row">
+          <div class="cell small-12 medium-4 large-4 imageBox">
+            <img src="./assets/images/doug-lennox.jpg" alt="instructor photo">
+          </div>
 
-            Learning to swim is a process that depends on the mastery of a progression of skills. We crafted our swim class curriculum
-            to help swimmers of all ages and skill levels master the five developmental components of swimming: comfort,
-            coordination, technique, endurance and speed. We offer swim classes in a variety of formats, including group
-            classes, parent-infant classes and one-on-one private lessons. Our swim instruction classes begin as early as
-            four months old and go all the way to adults.
-          </p>
+          <div class="cell small-12 medium-8 large-8 levelDescription" id="doug-lennox">
+            <h3 class="title">Doug Lennox</h3>
+            <h6 class="highlighted-info">
+              <strong>Years Experience:</strong> 18 + years coaching
+              <br>
+              <strong>Expertise:</strong> Competitive level stroke development
+              <br>
+              <strong>Certifications:</strong>ASCA coach
+              <br>
+            </h6>
+
+            <strong>Favorite stroke:</strong>Backstroke
+
+            <p>Doug Lennox '09, Beijing Olympian and one of the most decorated swimmers to represent the University, is returning
+              to Princeton to serve as assistant coach for the upcoming season. He replaces Michael Joyce, who joined the
+              Arizona State coaching staff to work under Bob Bowman – Michael Phelps' longtime coach.
+              <br> Lennox, who currently owns four program records from his historic 2009 season, comes to Princeton after assistant
+              coaching positions at both Kenyon College (2014-17) and New York University (2013-14).
+              <br> Lennox, who placed in the Top 40 in seven events during both the 2008 Beijing Olympics and the 2009 Rome World
+              Championships, is coming off a memorable 2017 season at Kenyon College, where he helped the men's team place
+              second at NCAAs, while the women's team placed third.
+              <p>
+          </div>
         </div>
+      </div>
+
+
+      <div class="even-level">
+        <div class="grid-x grid-margin-x grid-padding-x level-row">
+          <div class="cell small-12 medium-4 large-4 imageBox">
+            <img src="./assets/images/lia-neal.jpg" alt="instructor photo">
+          </div>
+
+          <div class="cell small-12 medium-8 large-8 levelDescription" id="lia-neal">
+            <h3 class="title">Lia Neal</h3>
+            <h6 class="highlighted-info">
+              <strong>Years Experience:</strong> 2 years coaching
+              <br>
+              <strong>Expertise:</strong> learn-to-swim to pre-competitive
+              <br>
+              <strong>Certifications:</strong>WSI
+              <br>
+            </h6>
+
+            <strong>Favorite stroke:</strong>Freestyle
+
+            <p>Lia Neal (born February 13, 1995) is an American competitive swimmer who specializes in freestyle events. In
+              her Olympic debut at the 2012 Summer Olympics in London, she won a bronze medal in the 4×100-meter freestyle
+              relay. In 2016, she won a silver medal in the same event at Rio de Janeiro.
+              <p>
+          </div>
+        </div>
+      </div>
+      <div class="odd-level">
+        <div class="grid-x grid-margin-x grid-padding-x level-row">
+          <div class="cell small-12 medium-4 large-4 imageBox">
+            <img src="./assets/images/Abbey-Berloco.jpg" alt="instructor photo">
+          </div>
+
+          <div class="cell small-12 medium-8 large-8 levelDescription" id="abbey Berloco">
+            <h3 class="title">Abbey Berloco</h3>
+            <h6 class="highlighted-info">
+              <strong>Years Experience:</strong> 3 years coaching
+              <br>
+              <strong>Expertise:</strong> pre-school to adult
+              <br>
+              <strong>Certifications:</strong>WSI
+              <br>
+            </h6>
+
+            <strong>Favorite stroke:</strong>Backstroke
+
+            <p>
+              For the last three seasons in a row Berloco has received The Times of Trenton Area Girls Swimmer of the Year Award. As a
+              freshman at Princeton High School, she placed fifth in the 50 free (23.97) and anchored the state-champion
+              400 free relay at the 2015 NJSIAA Meet of Champions. The following year she won the 50 free (23.20) and the
+              100 free (50.30) and anchored Princeton’s 400 free relay to another state title. Berloco transferred to Notre
+              Dame High School in Lawrenceville, and while she successfully defended her MOC title in the 100 free (50.61),
+              she was third in the 50 (23.63) and not as quick as she’d been as a sophomore.
+              <p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- starting the second header for this page -->
+    <div class="grid-container">
+      <div class="style-header text-center">
+        <h1>Know our Philosphy</h1>
+      </div>
+      <div class="text-box-sizing">
+        <h3 class="text-center">Why our methods are effective</h3>
+        <p class="text-center">
+
+          Learning to swim is a process that depends on the mastery of a progression of skills. We crafted our swim class curriculum
+          to help swimmers of all ages and skill levels master the five developmental components of swimming: comfort, coordination,
+          technique, endurance and speed. We offer swim classes in a variety of formats, including group classes, parent-infant
+          classes and one-on-one private lessons. Our swim instruction classes begin as early as four months old and go all
+          the way to adults.
+        </p>
+      </div>
+      <div class="tecn">
         <h5>
           <strong>Comfort: </strong> when the body is relaxed you absorb the material better and remain more buoyant in the water.
           <h5>
@@ -331,86 +302,93 @@
             prepares you to get past this.</h5>
           <h5>
             <strong>Speed: </strong>Once form is learned, we work on quickening the motions for speed.</h5>
+      </div>
 
-          <!-- </p>
-        </div> -->
+      <!-- start the pool schedule page -->
 
-          <!-- start the pool schedule page -->
+      <div class="style-header text-center">
+        <h1>Open Swim Schedule</h1>
+      </div>
+      <div class="text-box-sizing">
+        <h3 class="text-center">Practice makes perfect</h3>
+        <p class="text-center">
+          While lessons are structured once a week your progress can be accelerated with additional workout time in the pool. Because
+          of this we have open pool times where a certified lifeguard will be on deck as you practice. please join us at
+          any of our locations at the following times.
+          <h5>
+            <strong>Mondays: </strong>
+            <span>10AM-12PM or 8:30-10PM</span>
+          </h5>
+          <h5>
+            <strong>Tuesdays: </strong>10AM-12PM OR 8:30-10PM</h5>
+          <h5>
+            <strong>Wednesdays: </strong>10AM-12PM OR 8:30-10PM</h5>
+          <h5>
+            <strong>Thursdays: </strong>10AM-12PM OR 8:30-10PM</h5>
+          <h5>
+            <strong>Firdays: </strong>10AM-12PM OR 8:30-10PM</h5>
+          <h5>
+            <strong>Saturdays: </strong>7AM-8:30AM OR 4:30-6PM</h5>
+          <h5>
+            <strong>Sundays: </strong> 8AM-9AM OR 4:30-6PM</h5>
+        </p>
+      </div>
+    </div>
 
-          <div class="style-header text-center">
-            <h1>Open Swim Schedule</h1>
-          </div>
-          <div class="text-box-sizing">
-            <h3 class="text-center">Practice makes perfect</h3>
-            <p class="text-center">
-              While lessons are structured once a week your progress can be accelerated with additional workout time in the pool. Because
-              of this we have open pool times where a certified lifeguard will be on deck as you practice. please join us
-              at any of our locations at the following times.
-              <h5>
-                <strong>Mondays: </strong>
-                <span>10AM-12PM or 8:30-10PM</span>
-              </h5>
-              <h5>
-                <strong>Tuesdays: </strong>10AM-12PM OR 8:30-10PM</h5>
-              <h5>
-                <strong>Wednesdays: </strong>10AM-12PM OR 8:30-10PM</h5>
-              <h5>
-                <strong>Thursdays: </strong>10AM-12PM OR 8:30-10PM</h5>
-              <h5>
-                <strong>Firdays: </strong>10AM-12PM OR 8:30-10PM</h5>
-              <h5>
-                <strong>Saturdays: </strong>7AM-8:30AM OR 4:30-6PM</h5>
-              <h5>
-                <strong>Sundays: </strong> 8AM-9AM OR 4:30-6PM</h5>
-            </p>
-          </div>
-
-
-
-
-          <!-- upper footer for additional text or link elsewhere -->
-          <!-- FIX THE MARGIN TO ZERO SO DARK BLUE IS IN LINE WITH THE REST -->
-          <div class="grid-container end-prompt">
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 ">
-                <div class="style-header text-center">
-                  <h3>Ready to register for class?</h3>
-
-                  <!-- links for social media -->
-                  <a class="register-link" href="contact.html">Click here for more information and registration!</a>
-                  <div class="link-pic">
-                    <a href="https://www.facebook.com/USAswimming/">
-                      <img border="0" alt="facebook" src="assets/images/facebook-logo.png" width="50px">
-                    </a>
+    <!-- upper footer for additional text or link elsewhere -->
+    <!-- FIX THE MARGIN TO ZERO SO DARK BLUE IS IN LINE WITH THE REST -->
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <div class="topFooter style-header">
+            <div class="grid-container">
+              <div class="grid-x grid-padding-x">
+                <div class="large-12 cell">
+                  <div class="text-center">
+                    <h3>Ready to register for class?</h3>
+                    <!-- links for social media -->
+                    <a class="register-link" href="contact.html">Click here for more information and registration!</a>
+                    <div class="link-pic">
+                      <a href="https://www.facebook.com/USAswimming/">
+                        <img border="0" alt="facebook" src="assets/images/facebook-logo.png" width="50px">
+                      </a>
+                    </div>
+                    <div class="link-pic">
+                      <a href="https://www.instagram.com/explore/locations/141750626068/usa-swimming/">
+                        <img border="0" alt="instagram" src="assets/images/instagram.png" width="50px">
+                      </a>
+                    </div>
+                    <div class="link-pic">
+                      <a href="https://www.usaswimming.org/">
+                        <img border="0" alt="USA Swimming" src="assets/images/USA-swimming.png" width="50px">
+                      </a>
+                    </div>
                   </div>
-                  <div class="link-pic">
-                    <a href="https://www.instagram.com/explore/locations/141750626068/usa-swimming/">
-                      <img border="0" alt="instagram" src="assets/images/instagram.png" width="50px">
-                    </a>
-                  </div>
-                  <div class="link-pic">
-                    <a href="https://www.usaswimming.org/">
-                      <img border="0" alt="USA Swimming" src="assets/images/USA-swimming.png" width="50px">
-                    </a>
-                  </div>
-                  </a>
                 </div>
               </div>
             </div>
           </div>
+
           <!-- end upper footer -->
+
           <!-- bottom footer with image -->
           <footer>
-            <div class="fixed-bottom bg-info text-white text-center p-3 footer-image">
-              &copy; 2018 JSJ Enterprises
+            <div class="wrap row small-up-1 medium-up-3">
+              <div class="fixed-bottom bg-info text-white text-center p-3 footer-image">
+                &copy; 2018 JSJ Enterprises
+              </div>
             </div>
           </footer>
-          <!-- end bottom footer -->
 
-          <script src="./assets/js/vendor/jquery.js"></script>
-          <script src="./assets/js/vendor/what-input.js"></script>
-          <script src="./assets/js/vendor/foundation.js"></script>
-          <script src="./assets/js/app.js"></script>
+        </div>
+      </div>
+    </div>
+    <!-- end bottom footer -->
+
+    <script src="./assets/js/vendor/jquery.js"></script>
+    <script src="./assets/js/vendor/what-input.js"></script>
+    <script src="./assets/js/vendor/foundation.js"></script>
+    <script src="./assets/js/app.js"></script>
 
 
 
