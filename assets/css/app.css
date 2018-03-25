@@ -61,7 +61,6 @@ h5 {
   /* border-bottom: 1px solid gray; */
   padding-top: 20px;
   padding-bottom: 20px;
-  /* this margin below was taken off because of how it affects the lines on the swim levels page JA and replaced with a padding */
   /* margin: 20px; */
 }
 
@@ -175,7 +174,7 @@ a:hover {
   }
 
   /* this part allows the mobile version to not show 2 logos */
-  @media (max-width: 900px) {
+  @media (max-width: 1024px) {
     .hide-logo-mobile  {
         display:none;
     }
