@@ -15,25 +15,24 @@
 
 <body>
   <!-- top menu bar -->
-  <nav data-sticky-container>
-    <div data-sticky data-options="marginTop:0;">
+  <nav data-sticky-container id="top">
+      <div data-sticky data-options="marginTop:0" data-sticky-on="small">
+  
+        <!-- Mobile menu  -->
+        <div class="title-bar nav-bar-style" data-responsive-toggle="main-nav" data-hide-for="large">
+          <button class="menu-icon" id="hamburger-menu" type="button" data-toggle="main-nav"></button>
+          <img class="logo" src="./assets/images/Logo-noback.png" alt="JSJ Swim School">
+        </div>
 
-      <!-- Mobile menu  -->
-      <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="large">
-        <button class="menu-icon" type="button" data-toggle="main-nav"></button>
-        <img class="logo" src="./assets/images/Logo-noback.png" alt="JSJ Swim School">
-      </div>
-
-      <!-- Top bar Left (Company Logo) -->
-      <div class="grid-container">
-        <div class="top-bar" id="main-nav">
-          <div class="top-bar-left">
-            <img class="logo hide-logo-mobile" src="./assets/images/Logo-noback.png" alt="JSJ Swim School">
-          </div>
+        <!-- Top bar Left (Company Logo) -->
+        <div class="grid-container nav-bar-style">
+            <div class="top-bar" id="main-nav">
+              <div class="top-bar-left">
+                <img class="logo hide-logo-mobile" src="./assets/images/Logo-noback.png" alt="JSJ Swim School">
+              </div>
 
 
           <!-- Navigation Menu -->
-          <div class="grid-container">
             <ul class="vertical large-horizontal dropdown menu" data-responsive-menu="accordion large-dropdown">
               <li>
                 <a href="./index.html">Home</a>
@@ -75,7 +74,6 @@
             </ul>
           </div>
         </div>
-      </div>
     </div>
   </nav>
 

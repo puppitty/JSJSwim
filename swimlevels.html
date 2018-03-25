@@ -14,22 +14,22 @@
 </head>
 
 <body>
-  <!-- top menu bar -->
-  <nav data-sticky-container id="top">
-    <div data-sticky data-options="marginTop:0" data-sticky-on="small">
-
-      <!-- Mobile menu  -->
-      <div class="title-bar nav-bar-style" data-responsive-toggle="main-nav" data-hide-for="large">
-        <button class="menu-icon" type="button" data-toggle="main-nav"></button>
-        <img class="logo" src="./assets/images/Logo-noback.png" alt="JSJ Swim School">
-      </div>
+   <!-- top menu bar -->
+   <nav data-sticky-container id="top">
+      <div data-sticky data-options="marginTop:0" data-sticky-on="small">
+  
+        <!-- Mobile menu  -->
+        <div class="title-bar nav-bar-style" data-responsive-toggle="main-nav" data-hide-for="large">
+          <button class="menu-icon" id="hamburger-menu" type="button" data-toggle="main-nav"></button>
+          <img class="logo" src="./assets/images/Logo-noback.png" alt="JSJ Swim School">
+        </div>
 
       <!-- Top bar Left (Company Logo) -->
       <div class="grid-container nav-bar-style">
-        <div class="top-bar" id="main-nav">
-          <div class="top-bar-left">
-            <img class="logo hide-logo-mobile" src="./assets/images/Logo-noback.png" alt="JSJ Swim School">
-          </div>
+          <div class="top-bar" id="main-nav">
+            <div class="top-bar-left">
+              <img class="logo hide-logo-mobile" src="./assets/images/Logo-noback.png" alt="JSJ Swim School">
+            </div>
 
           <!-- Navigation Menu -->
           <ul class="vertical large-horizontal dropdown menu" data-responsive-menu="accordion large-dropdown">
@@ -46,17 +46,17 @@
               <li class="active">
                 <a href="./swimlevels.html">Swim Levels</a>
                 <ul class="menu vertical nested">
-                  <li>
+                  <li class="local-link">
                     <a href="#parentChild">Parent/Child</a>
                   </li>
-                  <li>
+                  <li class="local-link">
                     <a href="#preSchool">Pre-School</a>
                   </li>
-                  <li>
+                  <li class="local-link">
                     <a href="#schoolAge">School Age</a>
                   </li>
-                  <li>
-                    <a href="#competitiveSwim">Competitive</a>
+                  <li class="local-link">
+                      <a href="#competitiveSwim">Competitive</a>
                   </li>
                 </ul>
               </li>
@@ -122,7 +122,7 @@
                 <p>The main goal of parent child classes is to teach water comfort and water safety. The parent will be in the
                   water with the child practicing skills through song and games. Goals include back floating, basic forward
                   movement, confidence in jumping then returning to the wall, and learning how to be safe by the pool.
-                  <p>
+                </p>
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@
                 the familiarity of the parent. Week 2 we begin to have the child separate from the parent to the instructor.
                 Week 3-6 we will begin to have the parent leave the pool, then leave the pool deck so that the child is ready
                 for their independent class without the parent.
-                <p>
+              </p>
             </div>
           </div>
 
@@ -170,7 +170,7 @@
                 <p>The goal of preschool aquatics is to allow for water comfort and the beginning steps of independent swimming.
                   Children will learn to float, kick and move their arms in the water. Class will also cover water safety
                   around the pool or ocean.
-                  <p>
+                </p>
               </div>
             </div>
           </div>
@@ -193,7 +193,7 @@
                 to grow. These swimmers are learning the importance of side breathing for freestyle. The arms are introduced
                 for the backstroke and the breaststroke. The students will learn the elementary backstroke. Strokes covered:
                 Freestyle, backstroke, elementary Backstroke
-                <p>
+              </p>
             </div>
           </div>
         </div>
@@ -216,7 +216,7 @@
               <p>Slow and steady wins this race! In level 1 we work on the foundation of swimming, breathing through the freestyle
                 stroke. To graduate each student needs to be able to swim independently on their front and back for 10 yards.
                 Strokes learned: Basic front movement, back sculling
-                <p>
+              </p>
             </div>
           </div>
         </div>
@@ -238,7 +238,7 @@
             <p>The goal of preschool aquatics is to allow for water comfort and the beginning steps of independent swimming.
               Children will learn to float, kick and move their arms in the water. Class will also cover water safety around
               the pool or ocean.
-              <p>
+            </p>
           </div>
         </div>
         <!-- line seven Dolphins ODD-->
@@ -259,7 +259,7 @@
               <p>Dolphins are able to swim freestyle, backstroke and breaststroke at the time they enter the class. Level 3
                 will be learning the dolphin kick and full butterfly stroke. All strokes will be practiced with endurance
                 training and getting the swimmer ready for a team environment.
-                <p>
+              </p>
             </div>
           </div>
         </div>
@@ -282,7 +282,7 @@
               work on endurance, starting dives, flip turns and other elements specific to swim team. To begin this class
               you must try out and be accepted. The swimmer will have a full understanding of freestyle, backstroke, and
               breaststroke.
-              <p>
+            </p>
           </div>
         </div>
         <!-- line Nine masters swim ODD-->
@@ -303,7 +303,7 @@
               <p>Masters swim is our adult swim team program with a coach on deck for all workout times. Lanes will be separated
                 based on speed and competing age range. This program is meant for adults who enjoy intense workouts with
                 other swimmers as motivation.
-                <p>
+              </p>
             </div>
           </div>
         </div>
@@ -357,6 +357,13 @@
         <script src="./assets/js/vendor/what-input.js"></script>
         <script src="./assets/js/vendor/foundation.js"></script>
         <script src="./assets/js/app.js"></script>
+<script>
+$('.local-link').click(function() {
+  $('#hamburger-menu').trigger('click');
+});
+
+
+  </script>
 
 </body>
 
