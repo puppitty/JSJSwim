@@ -1,3 +1,6 @@
+/* Custom CSS file for JSJ Swim*/
+
+/* Screen sizes for menu */
 @media screen and (max-width: 39.9375em) {
   .no-js .top-bar {
     display: none;
@@ -12,6 +15,7 @@ screen and (min-width: 40em) {
   }
 }
 
+/* Sticky top menu */
 [data-sticky] {
   width: 100%;
 }
@@ -21,7 +25,8 @@ screen and (min-width: 40em) {
 }
 .txtLeft {
   text-align: left;
-  /* color: rgb(25, 118, 210); */
+  
+/* Adjust font size for main nav */
 }
 #main-nav {
   font-size: 14px;
@@ -37,6 +42,7 @@ a {
   background-color: White;
 }
 
+/* Header styles */
 h1 {
   font-style: bold;
 }
@@ -45,10 +51,12 @@ h5 {
   text-align: center;
 }
 
+/* margins for the thumbnails used on the Home page */
 .thumbnail {
   margin-bottom: 2px;
 }
 
+/* white background for the navigation bar - default is light gray */
 .top-bar {
   background-color: white;
 }
@@ -76,11 +84,12 @@ h5 {
   width: auto;
 }
 
+/* logo size for all pages */
 .logo {
   width: 200px;
 }
 
-
+/* page identification used on all sub pages */
 .style-header {
   color: rgb(223, 243, 243);
   background-color: rgb(25, 118, 210);
@@ -105,6 +114,7 @@ h5 {
   margin-top:0;
 }
  
+/* formatting for class levels */
 .odd-level {
   background-color: rgb(199, 220, 247);
 }
@@ -119,6 +129,7 @@ h5 {
   padding: 20px;
 }
 
+/* formatting for map on Locations page */
 #mapSection{
   align-content: space-around;
   height:75vh;
@@ -127,15 +138,12 @@ h5 {
   position:inherit;
 }
 
-/* This is causing a problem with the links on the buttons on the contact page and on the Home page */
-/* a:link {
-color:blue;
-} */
-
+/* hover effect for nav menu */
 a:hover {
   text-decoration:underline;
 }
 
+/* space to separate contact from from rest of page content */
 .contact {
   padding-top: 20px;
 }
@@ -148,11 +156,9 @@ a:hover {
 }
 
 .register-link {
-  /* background-color: rgb(25, 118, 210); */
   color: white;
   text-decoration: none;
   font-size: 20px;
-
 }
 
 .topFooter {
@@ -164,6 +170,7 @@ a:hover {
 
 }
 
+/* adjust button colors to match other colors on the page */
 .button.primary {
   background-color: rgb(25, 118, 210);
   color: #fefefe; }
@@ -180,11 +187,9 @@ a:hover {
     }
 }
 
+/* format for error on contact page */
 .form-error {
   padding-left: 5px;
   padding-top: 5px;
 }
 
-ul.vertical.large-horizontal.menu.accordion-menu {
- align-content: left;
-}
