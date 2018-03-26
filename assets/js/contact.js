@@ -14,7 +14,6 @@ $(document).ready(function() {
     var selectLocations=$('#selectLocations');
     selectLocations.empty();
     databaseLocations.ref("/Locations").on("child_added", function(childSnapshot) {
-       // alert('here');
        // <option value="volvo">Volvo</option>
        console.log(childSnapshot.val().Title);
         var html='<option value="'+childSnapshot.val().Title+'">'+childSnapshot.val().Title+"</option>";
