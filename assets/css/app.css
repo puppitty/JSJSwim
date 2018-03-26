@@ -179,3 +179,8 @@ a:hover {
         display:none;
     }
 }
+
+.form-error {
+  padding-left: 5px;
+  padding-top: 5px;
+}

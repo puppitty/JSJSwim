@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>JSJ Swim School</title>
 
-  <!-- Connections to Foundation CSS files and cusotm css file -->
+  <!-- Connections to Foundation CSS files and custom css file -->
   <link rel="stylesheet" href="./assets/css/foundation.css">
   <link rel="stylesheet" href="./assets/css/foundation.min.css">
   <link rel="stylesheet" href="./assets/css/app.css">
@@ -23,7 +23,6 @@
       <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="large">
         <button class="menu-icon" type="button" data-toggle="main-nav"></button>
         <img class="logo" src="./assets/images/Logo-noback.png" alt="JSJ Swim School">
-        <!-- <div class="title-bar-title">JSJ Swim School</div> -->
       </div>
 
       <!-- Top bar Left (Company Logo) -->
@@ -79,7 +78,7 @@
     </div>
   </nav>
 
-  <!-- Contact Types -->
+  <!-- Contact Form -->
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
       <div class="large-12 cell">
@@ -87,29 +86,27 @@
           <h1>Contact Us</h1>
         </div>
         <div class="text-box-sizing">
-            <h3 class="text-center">Fill out the information below.</h3>
-            <p class="text-center">
-                For more information and Private lessons.
-              <br>
-            </p>
-          </div>
+          <h3 class="text-center">Fill out the information below.</h3>
+          <p class="text-center">
+            For more information and Private lessons.
+            <br>
+          </p>
+        </div>
 
-<!-- end second header -->
+        <!-- Error message -->
         <div class="row">
           <div class="grid-container">
             <form data-abide novalidate>
               <div data-abide-error class="alert callout" style="display: none;">
                 <p>
-                  <i class="fi-alert"></i> There are some errors in your form.</p>
+                  <i class="fi-alert"></i>There are some errors in your form.</p>
               </div>
               <div class="grid-x grid-padding-x">
                 <div class="large-4 medium-4 cell">
-                  <!-- First and last names -->
+
+                  <!-- Contact form -->
                   <label>Parent / Guardian First Name</label>
-                  <input type="text" placeholder="Parent's First Name" aria-describedby="ParentName" required pattern="text">
-                  <span class="form-error">
-                    Yo, you had better fill this out, it's required.
-                  </span>
+                  <input type="text" placeholder="Parent's First Name">
                 </div>
                 <div class="large-4 medium-4 cell">
                   <label>Parent / Guardian Last Name</label>
@@ -120,14 +117,15 @@
                   <div class="grid-x">
                     <label>Parent / Guardian Email Address</label>
                     <div class="input-group">
-                      <input type="email" placeholder="name@domain.com" aria-describedby="emailaddress" required pattern="email">
-                      <span class="form-error">
-                        Enter a valid email address.
-                      </span>
+                      <input type="email" placeholder="name@domain.com" aria-describedby="form-error" required pattern="email">
+                      <p class="form-error">
+                         Enter a valid email address.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
+
               <!-- Subject with dropdown list of choices -->
               <div class="grid-x grid-padding-x">
                 <div class="large-12 cell">
@@ -150,6 +148,7 @@
                 </div>
               </div>
               <br>
+              <!-- Section to request Private Lessons -->
               <h6>
                 <strong>
                   <em>
@@ -224,61 +223,60 @@
           </div>
         </div>
 
-       
-        
-          <!-- upper footer for additional text or link elsewhere -->
-          <!-- FIX THE MARGIN TO ZERO SO DARK BLUE IS IN LINE WITH THE REST -->
-          <div class="topFooter style-header">
-              <div class="grid-container">
-                <div class="grid-x grid-padding-x">
-                  <div class="large-12 cell">
-                    <div class="text-center">
-                      <h3>Ready to register for class?</h3>
-  
-                      <!-- links for social media -->
-                      <a class="register-link" href="contact.html">Click here for more information and registration!</a>
-                      <div class="link-pic">
-                        <a href="https://www.facebook.com/USAswimming/">
-                          <img border="0" alt="facebook" src="assets/images/facebook-logo.png" width="50px">
-                        </a>
-                      </div>
-                      <div class="link-pic">
-                        <a href="https://www.instagram.com/explore/locations/141750626068/usa-swimming/">
-                          <img border="0" alt="instagram" src="assets/images/instagram.png" width="50px">
-                        </a>
-                      </div>
-                      <div class="link-pic">
-                        <a href="https://www.usaswimming.org/">
-                          <img border="0" alt="USA Swimming" src="assets/images/USA-swimming.png" width="50px">
-                        </a>
-                      </div>
-                    </div>
+
+        <!-- upper footer for additional text or link elsewhere -->
+        <!-- FIX THE MARGIN TO ZERO SO DARK BLUE IS IN LINE WITH THE REST -->
+        <div class="topFooter style-header">
+          <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <div class="text-center">
+                  <h3>Ready to register for class?</h3>
+
+                  <!-- links for social media -->
+                  <a class="register-link" href="contact.html">Click here for more information and registration!</a>
+                  <div class="link-pic">
+                    <a href="https://www.facebook.com/USAswimming/">
+                      <img border="0" alt="facebook" src="assets/images/facebook-logo.png" width="50px">
+                    </a>
+                  </div>
+                  <div class="link-pic">
+                    <a href="https://www.instagram.com/explore/locations/141750626068/usa-swimming/">
+                      <img border="0" alt="instagram" src="assets/images/instagram.png" width="50px">
+                    </a>
+                  </div>
+                  <div class="link-pic">
+                    <a href="https://www.usaswimming.org/">
+                      <img border="0" alt="USA Swimming" src="assets/images/USA-swimming.png" width="50px">
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-    <!-- end upper footer -->
-    
-    <!-- bottom footer with image -->
-    <footer>
-      <div class="fixed-bottom bg-info text-white text-center p-3 footer-image">
-        &copy; 2018 JSJ Enterprises
+          </div>
+        </div>
+        <!-- end upper footer -->
+
+        <!-- bottom footer with image -->
+        <footer>
+          <div class="fixed-bottom bg-info text-white text-center p-3 footer-image">
+            &copy; 2018 JSJ Enterprises
+          </div>
+        </footer>
+        <!-- end bottom footer -->
       </div>
-    </footer>
-    <!-- end bottom footer -->
-  </div>
 
-  <!-- scripts for JS -->
-  <script src="./assets/js/vendor/jquery.js"></script>
-  <script src="./assets/js/vendor/what-input.js"></script>
-  <script src="./assets/js/vendor/foundation.js"></script>
-  <script src="./assets/js/app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://code.jquery.com/jquery.js"></script>
+      <!-- scripts for JS -->
+      <script src="./assets/js/vendor/jquery.js"></script>
+      <script src="./assets/js/vendor/what-input.js"></script>
+      <script src="./assets/js/vendor/foundation.js"></script>
+      <script src="./assets/js/app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://code.jquery.com/jquery.js"></script>
 
-  <script src="./assets/js/contact.js"></script>
+      <script src="./assets/js/contact.js"></script>
 
 </body>
 

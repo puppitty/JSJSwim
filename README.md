@@ -13,6 +13,7 @@ This website is a good template for a service providing company that needs a tem
 * Javascript
 * JQuery
 * Foundation 
+* Abide Form validation
 * Firebase
 * Google Maps javascript API 
 * Google Maps Geocode API
