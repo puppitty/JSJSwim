@@ -42,8 +42,8 @@ $(document).ready(function(){
             for( var i=0;i<results.items.length;i++){
                 
                console.log(results.items[i].snippet.resourceId.videoId);
-                //var videoID=results.items[i].snippet.resourceId.videoId;
-                display(results.items[i].snippet.resourceId.videoId, results.items[i].snippet.description);
+                if(results.items[i].snippet.resourceId.videoId)
+                    display(results.items[i].snippet.resourceId.videoId, results.items[i].snippet.description);
             
             }
 
@@ -64,7 +64,8 @@ $(document).ready(function(){
                 
                 console.log(results.items[i].id.videoId);
                 //var videoID=results.items[i].id.videoId;
-                display(results.items[i].id.videoId, results.items[i].snippet.description);
+                if(results.items[i].id.videoId)
+                    display(results.items[i].id.videoId, results.items[i].snippet.description);
             
             }
         });
